@@ -1,0 +1,76 @@
+
+  
+  #navegador{
+    padding: 0;
+  }
+  
+  .logo{
+    background-color: white;
+    width: 75px;
+    height: auto;
+  }
+  
+  .form{
+    display: flex;
+  }
+  .form-control{
+    border: 5px solid white;
+    border-radius: 3px;
+  }
+  .btn{
+    background-color: #267B8D;
+    border: 5px;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #267B8D;
+  }
+  
+  .form .btn {
+    background-color: #267B8D;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+  
+  #boton-registro{
+    border-radius: 10px;
+    background-color: white;
+    color: #267B8D;
+    font-weight: bold;
+  }
+  
+  #boton-inicio{
+    border-radius: 10px;
+    background-color: white;
+    color: #267B8D;
+    font-weight: bold;
+  }
+  
+  #botonera {
+    background-color: #267B8D;
+    color: white;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("./doc/img/slide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #contenedor2{
+    margin-top: 50px;
+  }
+
+  @media (max-width: 1400px) {
+    #uno {
+      margin-top: 700px;
+    }
+  }

@@ -1,60 +1,58 @@
-
-  
-  #navegador{
+#navegador {
     padding: 0;
-  }
-  
-  .logo{
+}
+
+.logo {
     background-color: white;
     width: 75px;
     height: auto;
-  }
-  
-  .form{
+}
+
+.form {
     display: flex;
-  }
-  .form-control{
+}
+.form-control {
     border: 5px solid white;
     border-radius: 3px;
-  }
-  .btn{
-    background-color: #267B8D;
+}
+.btn {
+    background-color: #267b8d;
     border: 5px;
     border-radius: 10px;
-  }
-  
-  .btn:hover {
-    background-color: #267B8D;
-  }
-  
-  .form .btn {
-    background-color: #267B8D;
+}
+
+.btn:hover {
+    background-color: #267b8d;
+}
+
+.form .btn {
+    background-color: #267b8d;
     border: 5px solid white;
     border-radius: 10px;
-  }
-  
-  #boton-registro{
+}
+
+#boton-registro {
     border-radius: 10px;
     background-color: white;
-    color: #267B8D;
+    color: #267b8d;
     font-weight: bold;
-  }
-  
-  #boton-inicio{
+}
+
+#boton-inicio {
     border-radius: 10px;
     background-color: white;
-    color: #267B8D;
+    color: #267b8d;
     font-weight: bold;
-  }
-  
-  #botonera {
-    background-color: #267B8D;
+}
+
+#botonera {
+    background-color: #267b8d;
     color: white;
     z-index: 1;
     border-radius: 10px;
-  }
-  
-  header {
+}
+
+header {
     position: relative;
     top: 0;
     left: 0;
@@ -63,14 +61,14 @@
     background-image: url("./doc/img/slide.png");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  #contenedor2{
-    margin-top: 50px;
-  }
+}
 
-  @media (max-width: 1400px) {
+#contenedor2 {
+    margin-top: 50px;
+}
+
+@media (max-width: 1400px) {
     #uno {
-      margin-top: 700px;
+        margin-top: 700px;
     }
-  }
+}

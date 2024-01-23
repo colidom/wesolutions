@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "name": "CocinaExtrema",
+            "path": "../CocinaExtrema"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "CocinaExtrema"
+    }
+}

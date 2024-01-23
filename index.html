@@ -16,120 +16,118 @@
     <body>
         <div id="navegador" class="container-fluid">
             <header>
-                <div class="container">
-                    <div class="row d-flex justify-content-evenly">
-                        <!-- Imagen logotipo empresa -->
-                        <div class="col-1 mt-4">
-                            <img class="logo" src="./doc/img/image 20.png" alt="imagen-portada" />
-                        </div>
+                <div class="row d-flex justify-content-evenly">
+                    <!-- Imagen logotipo empresa -->
+                    <div class="col-1 mt-4">
+                        <img class="logo" src="./doc/img/image 20.png" alt="imagen-portada" />
+                    </div>
 
-                        <!-- Barra de busqueda y botón -->
-                        <div class="col-7 offset-lg-1 offset-md-1 offset-sm-0 d-xl-block d-none mt-4">
-                            <form class="form">
-                                <input class="form-control" type="search" placeholder="¿Que servicio desea buscar?" aria-label="Search" />
-                                <button class="btn btn-outline-light" type="submit">Buscar</button>
-                            </form>
-                        </div>
+                    <!-- Barra de busqueda y botón -->
+                    <div class="col-7 offset-lg-1 offset-md-1 offset-sm-0 d-xl-block d-none mt-4">
+                        <form class="form">
+                            <input class="form-control" type="search" placeholder="¿Que servicio desea buscar?" aria-label="Search" />
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
 
-                        <!-- Botón lupa -->
-                        <div class="col-1 offset-lg-8 offset-md-8 offset-sm-6 offset-2 d-xl-none d-block mt-4">
-                            <button class="btn btn-outline-light">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0,0,256,256"
-                                    width="24px"
-                                    height="20px"
-                                >
-                                    <g
-                                        fill="#ffffff"
-                                        fill-rule="nonzero"
-                                        stroke="none"
-                                        stroke-width="1"
-                                        stroke-linecap="butt"
-                                        stroke-linejoin="miter"
-                                        stroke-miterlimit="10"
-                                        stroke-dasharray=""
-                                        stroke-dashoffset="0"
-                                        font-family="none"
-                                        font-weight="none"
-                                        font-size="none"
-                                        text-anchor="none"
-                                        style="mix-blend-mode: normal"
-                                    >
-                                        <g transform="scale(10.66667,10.66667)">
-                                            <path
-                                                d="M9,2c-3.85415,0 -7,3.14585 -7,7c0,3.85415 3.14585,7 7,7c1.748,0 3.34501,-0.65198 4.57422,-1.71875l0.42578,0.42578v1.29297l6,6l2,-2l-6,-6h-1.29297l-0.42578,-0.42578c1.06677,-1.22921 1.71875,-2.82622 1.71875,-4.57422c0,-3.85415 -3.14585,-7 -7,-7zM9,4c2.77327,0 5,2.22673 5,5c0,2.77327 -2.22673,5 -5,5c-2.77327,0 -5,-2.22673 -5,-5c0,-2.77327 2.22673,-5 5,-5z"
-                                            ></path>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-
-                        <!-- Botón de registro -->
-                        <div class="col-xl-1 d-xl-block d-none mt-4">
-                            <button id="boton-registro" type="button" class="btn">Registrarse</button>
-                        </div>
-
-                        <!-- Botón de acceso -->
-                        <div class="col-xl-1 d-xl-block d-none mt-4">
-                            <button id="boton-inicio" type="button" class="btn">Entrar</button>
-                        </div>
-
-                        <div class="mt-4 me-3 col-1 d-lg-block d-xl-none">
-                            <button
-                                class="btn btn-outline-light"
-                                type="button"
-                                data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasRight"
-                                aria-controls="offcanvasRight"
+                    <!-- Botón lupa -->
+                    <div class="col-1 offset-lg-8 offset-md-8 offset-sm-6 offset-2 d-xl-none d-block mt-4">
+                        <button class="btn btn-outline-light">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0,0,256,256"
+                                width="24px"
+                                height="20px"
                             >
-                                Menu
-                            </button>
+                                <g
+                                    fill="#ffffff"
+                                    fill-rule="nonzero"
+                                    stroke="none"
+                                    stroke-width="1"
+                                    stroke-linecap="butt"
+                                    stroke-linejoin="miter"
+                                    stroke-miterlimit="10"
+                                    stroke-dasharray=""
+                                    stroke-dashoffset="0"
+                                    font-family="none"
+                                    font-weight="none"
+                                    font-size="none"
+                                    text-anchor="none"
+                                    style="mix-blend-mode: normal"
+                                >
+                                    <g transform="scale(10.66667,10.66667)">
+                                        <path
+                                            d="M9,2c-3.85415,0 -7,3.14585 -7,7c0,3.85415 3.14585,7 7,7c1.748,0 3.34501,-0.65198 4.57422,-1.71875l0.42578,0.42578v1.29297l6,6l2,-2l-6,-6h-1.29297l-0.42578,-0.42578c1.06677,-1.22921 1.71875,-2.82622 1.71875,-4.57422c0,-3.85415 -3.14585,-7 -7,-7zM9,4c2.77327,0 5,2.22673 5,5c0,2.77327 -2.22673,5 -5,5c-2.77327,0 -5,-2.22673 -5,-5c0,-2.77327 2.22673,-5 5,-5z"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Botón de registro -->
+                    <div class="col-xl-1 d-xl-block d-none mt-4">
+                        <button id="boton-registro" type="button" class="btn">Registrarse</button>
+                    </div>
+
+                    <!-- Botón de acceso -->
+                    <div class="col-xl-1 d-xl-block d-none mt-4">
+                        <button id="boton-inicio" type="button" class="btn">Entrar</button>
+                    </div>
+
+                    <div class="mt-4 me-3 col-1 d-lg-block d-xl-none">
+                        <button
+                            class="btn btn-outline-light"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"
+                        >
+                            Menu
+                        </button>
+                    </div>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Menu</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
 
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                            <div class="offcanvas-header">
-                                <h5 id="offcanvasRightLabel">Menu</h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <div class="offcanvas-body">
+                            <div>
+                                <a href="#">Iniciar Sesión / Registro</a>
                             </div>
-
-                            <div class="offcanvas-body">
-                                <div>
-                                    <a href="#">Iniciar Sesión / Registro</a>
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                        Menu opciones
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="#">Reformas</a></li>
-                                        <li><a class="dropdown-item" href="#">Clases</a></li>
-                                        <li><a class="dropdown-item" href="#">Mascotas</a></li>
-                                        <li><a class="dropdown-item" href="#">Limpieza</a></li>
-                                        <li><a class="dropdown-item" href="#">Belleza</a></li>
-                                        <li><a class="dropdown-item" href="#">Seguridad</a></li>
-                                        <li><a class="dropdown-item" href="#">Otros</a></li>
-                                    </ul>
-                                </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                    Menu opciones
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Reformas</a></li>
+                                    <li><a class="dropdown-item" href="#">Clases</a></li>
+                                    <li><a class="dropdown-item" href="#">Mascotas</a></li>
+                                    <li><a class="dropdown-item" href="#">Limpieza</a></li>
+                                    <li><a class="dropdown-item" href="#">Belleza</a></li>
+                                    <li><a class="dropdown-item" href="#">Seguridad</a></li>
+                                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- COMIENZO Fila navegación de la web -->
+                <!-- COMIENZO Fila navegación de la web -->
 
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10 text-center mt-3 d-flex justify-content-between d-none d-xl-flex">
-                            <button id="botonera_reformas" type="button" class="btn btn-outline">Reformas</button>
-                            <button id="botonera_clases" type="button" class="btn btn-outline">Clases</button>
-                            <button id="botonera_mascotas" type="button" class="btn btn-outline">Mascotas</button>
-                            <button id="botonera_limpieza" type="button" class="btn btn-outline">Limpieza</button>
-                            <button id="botonera_belleza" type="button" class="btn btn-outline">Belleza</button>
-                            <button id="botonera_seguridad" type="button" class="btn btn-outline">Seguridad</button>
-                            <button id="botonera_otros" type="button" class="btn btn-outline">Otros</button>
-                        </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10 text-center mt-3 d-flex justify-content-between d-none d-xl-flex">
+                        <button id="botonera_reformas" type="button" class="btn btn-outline">Reformas</button>
+                        <button id="botonera_clases" type="button" class="btn btn-outline">Clases</button>
+                        <button id="botonera_mascotas" type="button" class="btn btn-outline">Mascotas</button>
+                        <button id="botonera_limpieza" type="button" class="btn btn-outline">Limpieza</button>
+                        <button id="botonera_belleza" type="button" class="btn btn-outline">Belleza</button>
+                        <button id="botonera_seguridad" type="button" class="btn btn-outline">Seguridad</button>
+                        <button id="botonera_otros" type="button" class="btn btn-outline">Otros</button>
                     </div>
                 </div>
 
@@ -145,346 +143,302 @@
 
         <div id="contenedor2" class="container-fluid">
             <main>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 justify-content-center d-flex ps-5 ms-5">
-                            <h2 style="color: #1a4381; font-weight: bold">¡Así funciona!</h2>
-                        </div>
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex ps-5 ms-5">
+                        <h2 style="color: #1a4381; font-weight: bold">¡Así funciona!</h2>
                     </div>
                 </div>
             </main>
         </div>
 
         <!-- INICIO DEL ROW -->
-        <div class="container">
-            <div class="row mt-5 mb-5 ps-xxl-5">
-                <!-- INICIO COL 1 -->
-                <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex">
-                    <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
-                        <div class="cuadro" style="border: 5px solid #c4c4c4">
-                            <div class="row g-0">
-                                <div class="col-4"><img src="./doc/img/image 5.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                                <div class="col-4"><img src="./doc/img/image 14.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                                <div class="col-4"><img src="./doc/img/image 15.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-4"><img src="./doc/img/image 13.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                                <div class="col-4"><img src="./doc/img/image 12.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                                <div class="col-4"><img src="./doc/img/image 11.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
-                            </div>
+        <div class="row mt-5 mb-5 ps-xxl-5">
+            <!-- INICIO COL 1 -->
+            <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex">
+                <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
+                    <div class="cuadro" style="border: 5px solid #c4c4c4">
+                        <div class="row g-0">
+                            <div class="col-4"><img src="./doc/img/image 5.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
+                            <div class="col-4"><img src="./doc/img/image 14.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
+                            <div class="col-4"><img src="./doc/img/image 15.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
                         </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Busca lo que necesitas</h5>
-                            <p class="card-text">
-                                Contamos con una gran variedad de servicios que ofrecerte: bricolage, limpieza clases de <br />
-                                baile, entre otros. <br />
-                                ¡Lo que necesitas sin moverte de la cama!
-                            </p>
+                        <div class="row g-0">
+                            <div class="col-4"><img src="./doc/img/image 13.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
+                            <div class="col-4"><img src="./doc/img/image 12.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
+                            <div class="col-4"><img src="./doc/img/image 11.png" style="height: 108px; width: 136px" alt="" srcset="" /></div>
                         </div>
                     </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Busca lo que necesitas</h5>
+                        <p class="card-text">
+                            Contamos con una gran variedad de servicios que ofrecerte: bricolage, limpieza clases de <br />
+                            baile, entre otros. <br />
+                            ¡Lo que necesitas sin moverte de la cama!
+                        </p>
+                    </div>
                 </div>
-                <!-- FIN COL 1 -->
-                <!-- INICIO COL 2 -->
-                <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex mt-xxl-0 mt-xl-5 mt-5">
-                    <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
-                        <div class="cuadro" style="border: 5px solid #c4c4c4; width: 420px; margin: auto">
-                            <img src="./doc/img/image 16.png" class="card-img-top" alt="..." />
-                        </div>
+            </div>
+            <!-- FIN COL 1 -->
+            <!-- INICIO COL 2 -->
+            <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex mt-xxl-0 mt-xl-5 mt-5">
+                <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
+                    <div class="cuadro" style="border: 5px solid #c4c4c4; width: 420px; margin: auto">
+                        <img src="./doc/img/image 16.png" class="card-img-top" alt="..." />
+                    </div>
 
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Es muy fácil de utilizar</h5>
-                            <p class="card-text">
-                                Elige entre multitud de profesionales cerca de <br />
-                                tu localización. Podrás ver la calidad de sus <br />
-                                servicios. ¡Elige tu profesional favorito!
-                            </p>
-                        </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Es muy fácil de utilizar</h5>
+                        <p class="card-text">
+                            Elige entre multitud de profesionales cerca de <br />
+                            tu localización. Podrás ver la calidad de sus <br />
+                            servicios. ¡Elige tu profesional favorito!
+                        </p>
                     </div>
                 </div>
-                <!-- FIN COL 2 -->
-                <!-- INICIO COL 3 -->
-                <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex mt-xxl-0 mt-xl-5 mt-5">
-                    <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
-                        <div class="row" style="border: 5px solid #c4c4c4; width: 420px; margin: auto">
-                            <div class="col-3"></div>
-                            <div class="col-6">
-                                <img src="./doc/img/image 17.png" style="width: 180px" class="card-img-top center mb-3" alt="..." />
+            </div>
+            <!-- FIN COL 2 -->
+            <!-- INICIO COL 3 -->
+            <div class="col-xxl-4 col-xl-12 ps-5 justify-content-center d-flex mt-xxl-0 mt-xl-5 mt-5">
+                <div class="card ms-3" style="width: 26.2rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px">
+                    <div class="row" style="border: 5px solid #c4c4c4; width: 420px; margin: auto">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <img src="./doc/img/image 17.png" style="width: 180px" class="card-img-top center mb-3" alt="..." />
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="row text-center mb-3">
+                            <div class="col-4" style="border-right: 2px solid #c4c4c4">
+                                Duración <br />
+                                144
                             </div>
-                            <div class="col-3"></div>
-                            <div class="row text-center mb-3">
-                                <div class="col-4" style="border-right: 2px solid #c4c4c4">
-                                    Duración <br />
-                                    144
-                                </div>
-                                <div class="col-4" style="border-right: 2px solid #c4c4c4">
-                                    Hora <br />
-                                    18:00
-                                </div>
-                                <div class="col-4">
-                                    Precio <br />
-                                    60€
-                                </div>
+                            <div class="col-4" style="border-right: 2px solid #c4c4c4">
+                                Hora <br />
+                                18:00
+                            </div>
+                            <div class="col-4">
+                                Precio <br />
+                                60€
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">¿te gusta? ¡Lo contratas!</h5>
-                            <p class="card-text">
-                                Podrás contratar el servicio que deseas en un <br />
-                                solo click, asi de facil. Nuestra prioridad es tu <br />
-                                tranquilidad
-                            </p>
-                        </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">¿te gusta? ¡Lo contratas!</h5>
+                        <p class="card-text">
+                            Podrás contratar el servicio que deseas en un <br />
+                            solo click, asi de facil. Nuestra prioridad es tu <br />
+                            tranquilidad
+                        </p>
                     </div>
-                    <!-- FIN COL 3 -->
                 </div>
+                <!-- FIN COL 3 -->
             </div>
         </div>
         <!-- FIN ROW -->
 
         <!-- INICIO ROW -->
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-12 justify-content-center d-flex ps-5 ms-5 mt-5">
-                    <h2 style="color: #1a4381; font-weight: bold">¡Nuestros servicios!</h2>
-                </div>
+        <div class="row mt-5">
+            <div class="col-12 justify-content-center d-flex ps-5 ms-5 mt-5">
+                <h2 style="color: #1a4381; font-weight: bold">¡Nuestros servicios!</h2>
             </div>
         </div>
         <!-- FIN ROW -->
 
         <!-- INICIO ROW -->
-        <div class="container">
-            <div class="row ps-5">
-                <div class="col-xl-1 d-xxl-none offset-xl-1"></div>
+        <div class="row ps-5">
+            <div class="col-xl-1 d-xxl-none offset-xl-1"></div>
 
-                <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
-                    <div
-                        class="card"
-                        style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
-                    >
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Clases</h5>
-                            <p class="card-text">
-                                <span style="color: #636161; font-weight: bold">Baile</span><br />
-                                <span style="color: #636161; font-weight: bold">Matemáticas</span><br />
-                                <span style="color: #636161; font-weight: bold">Informática</span><br />
-                                <span style="color: #636161; font-weight: bold">Inglés</span><br />
-                                <span style="color: #636161; font-weight: bold">Francés</span><br />
-                                <span style="color: #636161; font-weight: bold">Cocina</span><br />
-                            </p>
-                        </div>
+            <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
+                <div
+                    class="card"
+                    style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
+                >
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Clases</h5>
+                        <p class="card-text">
+                            <span style="color: #636161; font-weight: bold">Baile</span><br />
+                            <span style="color: #636161; font-weight: bold">Matemáticas</span><br />
+                            <span style="color: #636161; font-weight: bold">Informática</span><br />
+                            <span style="color: #636161; font-weight: bold">Inglés</span><br />
+                            <span style="color: #636161; font-weight: bold">Francés</span><br />
+                            <span style="color: #636161; font-weight: bold">Cocina</span><br />
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-xl-3 d-xxl-none"></div>
+            <div class="col-xl-3 d-xxl-none"></div>
 
-                <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
-                    <div
-                        class="card"
-                        style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
-                    >
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Mascotas</h5>
-                            <p class="card-text">
-                                <span style="color: #636161; font-weight: bold">Paseos</span><br />
-                                <span style="color: #636161; font-weight: bold">Peluqueria</span><br />
-                                <span style="color: #636161; font-weight: bold">Cuidado</span><br />
-                            </p>
-                        </div>
+            <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
+                <div
+                    class="card"
+                    style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
+                >
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Mascotas</h5>
+                        <p class="card-text">
+                            <span style="color: #636161; font-weight: bold">Paseos</span><br />
+                            <span style="color: #636161; font-weight: bold">Peluqueria</span><br />
+                            <span style="color: #636161; font-weight: bold">Cuidado</span><br />
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-xl-1 d-xxl-none offset-xl-1"></div>
+            <div class="col-xl-1 d-xxl-none offset-xl-1"></div>
 
-                <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
-                    <div
-                        class="card"
-                        style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
-                    >
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Seguridad</h5>
-                            <p class="card-text">
-                                <span style="color: #636161; font-weight: bold">Alarmas</span><br />
-                                <span style="color: #636161; font-weight: bold">Domotización</span><br />
-                                <span style="color: #636161; font-weight: bold">Vigilancia</span><br />
-                            </p>
-                        </div>
+            <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
+                <div
+                    class="card"
+                    style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
+                >
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Seguridad</h5>
+                        <p class="card-text">
+                            <span style="color: #636161; font-weight: bold">Alarmas</span><br />
+                            <span style="color: #636161; font-weight: bold">Domotización</span><br />
+                            <span style="color: #636161; font-weight: bold">Vigilancia</span><br />
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-sm-1 d-md-block d-lg-block d-xxl-none offset-xl-2"></div>
+            <div class="col-sm-1 d-md-block d-lg-block d-xxl-none offset-xl-2"></div>
 
-                <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
-                    <div
-                        class="card"
-                        style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
-                    >
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Belleza</h5>
-                            <p class="card-text">
-                                <span style="color: #636161; font-weight: bold">Manicura / Pericura</span><br />
-                                <span style="color: #636161; font-weight: bold">Peluquería</span><br />
-                                <span style="color: #636161; font-weight: bold">Estética</span><br />
-                                <span style="color: #636161; font-weight: bold">Maquillaje</span><br />
-                                <span style="color: #636161; font-weight: bold">Depilación</span><br />
-                            </p>
-                        </div>
+            <div class="col-xxl-3 col-xl-3 col-12 justify-content-center d-flex mt-5">
+                <div
+                    class="card"
+                    style="width: 13rem; border-bottom: 15px solid #c4c4c4; border-left: 0px; border-right: 0px; border-top: 0px; height: 280px"
+                >
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 mt-5" style="color: #1a4381; font-weight: bold">Belleza</h5>
+                        <p class="card-text">
+                            <span style="color: #636161; font-weight: bold">Manicura / Pericura</span><br />
+                            <span style="color: #636161; font-weight: bold">Peluquería</span><br />
+                            <span style="color: #636161; font-weight: bold">Estética</span><br />
+                            <span style="color: #636161; font-weight: bold">Maquillaje</span><br />
+                            <span style="color: #636161; font-weight: bold">Depilación</span><br />
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-2"></div>
+            <div class="col-2"></div>
+        </div>
+        <!-- FIN ROW -->
+
+        <!-- INICIO ROW -->
+        <div class="row mt-5 mb-4">
+            <div class="col-12 justify-content-center d-flex ps-5 ms-5 mt-5">
+                <h2 style="color: #1a4381; font-weight: bold">Categorias populares</h2>
             </div>
         </div>
         <!-- FIN ROW -->
 
         <!-- INICIO ROW -->
-        <div class="container">
-            <div class="row mt-5 mb-4">
-                <div class="col-12 justify-content-center d-flex ps-5 ms-5 mt-5">
-                    <h2 style="color: #1a4381; font-weight: bold">Categorias populares</h2>
-                </div>
+        <div class="row text-center ms-0 me-5 ps-5 pe-5" style="height: 228px">
+            <div class="col-xxl-4 col-12">
+                <img
+                    src="./doc/img/image 21.png"
+                    alt=""
+                    srcset=""
+                    style="
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                        border-bottom: 5px solid #828282;
+                    "
+                />
+                <p style="position: relative; left: -150px; top: -35px; font-weight: 500; color: #636161">Masajes</p>
+            </div>
+            <div class="col-xxl-4 col-12">
+                <img
+                    src="./doc/img/image 22.png"
+                    alt="Peluquería canina"
+                    srcset=""
+                    style="
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                        border-bottom: 5px solid #828282;
+                    "
+                />
+                <p style="position: relative; left: 140px; top: -50px; font-weight: 500; color: #636161">Peluquería</p>
+                <p style="position: relative; left: 125px; top: -70px; font-weight: 500; color: #636161">Canina</p>
+            </div>
+            <div class="col-xxl-4 col-12">
+                <img
+                    src="./doc/img/image 23.png"
+                    alt=""
+                    srcset=""
+                    style="
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                        border-bottom: 5px solid #828282;
+                    "
+                />
+                <p style="position: relative; left: 125px; top: -50px; font-weight: 500; color: #636161">Clases</p>
+                <p style="position: relative; left: 145px; top: -70px; font-weight: 500; color: #636161">Informática</p>
             </div>
         </div>
-        <!-- FIN ROW -->
-
-        <!-- INICIO ROW -->
-        <div class="container">
-            <div class="row text-center ms-0 me-5 ps-5 pe-5" style="height: 228px">
-                <div class="col-xxl-4 col-12">
-                    <img
-                        src="./doc/img/image 21.png"
-                        alt=""
-                        srcset=""
-                        style="
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                            border-bottom: 5px solid #828282;
-                        "
-                    />
-                    <p style="position: relative; left: -150px; top: -35px; font-weight: 500; color: #636161">Masajes</p>
-                </div>
-                <div class="col-xxl-4 col-12">
-                    <img
-                        src="./doc/img/image 22.png"
-                        alt="Peluquería canina"
-                        srcset=""
-                        style="
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                            border-bottom: 5px solid #828282;
-                        "
-                    />
-                    <p style="position: relative; left: 140px; top: -50px; font-weight: 500; color: #636161">Peluquería</p>
-                    <p style="position: relative; left: 125px; top: -70px; font-weight: 500; color: #636161">Canina</p>
-                </div>
-                <div class="col-xxl-4 col-12">
-                    <img
-                        src="./doc/img/image 23.png"
-                        alt=""
-                        srcset=""
-                        style="
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                            border-bottom: 5px solid #828282;
-                        "
-                    />
-                    <p style="position: relative; left: 125px; top: -50px; font-weight: 500; color: #636161">Clases</p>
-                    <p style="position: relative; left: 145px; top: -70px; font-weight: 500; color: #636161">Informática</p>
-                </div>
+        <div id="uno" class="row text-center mb-5 ms-0 me-5 ps-5 pe-5">
+            <div class="col-xxl-4 mb-5">
+                <img
+                    src="./doc/img/image 24.png"
+                    style="
+                        border-bottom: 5px solid #828282;
+                        border-left: 0px;
+                        border-right: 0px;
+                        border-top: 0px;
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                    "
+                    alt=""
+                    srcset=""
+                />
+                <p style="position: relative; left: 135px; top: -60px; font-weight: 500; color: #636161">Mantenimiento</p>
+                <p style="position: relative; left: 105px; top: -80px; font-weight: 500; color: #636161">General</p>
+                <hr style="height: 15px; width: 425px; margin: auto; top: -75px; position: relative; background-color: #636161; border-radius: 5px" />
             </div>
-        </div>
-        <div class="container">
-            <div id="uno" class="row text-center mb-5 ms-0 me-5 ps-5 pe-5">
-                <div class="col-xxl-4 mb-5">
-                    <img
-                        src="./doc/img/image 24.png"
-                        style="
-                            border-bottom: 5px solid #828282;
-                            border-left: 0px;
-                            border-right: 0px;
-                            border-top: 0px;
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                        "
-                        alt=""
-                        srcset=""
-                    />
-                    <p style="position: relative; left: 135px; top: -60px; font-weight: 500; color: #636161">Mantenimiento</p>
-                    <p style="position: relative; left: 105px; top: -80px; font-weight: 500; color: #636161">General</p>
-                    <hr
-                        style="
-                            height: 15px;
-                            width: 425px;
-                            margin: auto;
-                            top: -75px;
-                            position: relative;
-                            background-color: #636161;
-                            border-radius: 5px;
-                        "
-                    />
-                </div>
-                <div class="col-xxl-4">
-                    <img
-                        src="./doc/img/image 25.png"
-                        style="
-                            border-bottom: 5px solid #828282;
-                            border-left: 0px;
-                            border-right: 0px;
-                            border-top: 0px;
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                        "
-                        alt=""
-                        srcset=""
-                    />
-                    <p style="position: relative; left: 170px; top: -60px; font-weight: 500; color: #636161">Manicura</p>
-                    <p style="position: relative; left: 170px; top: -80px; font-weight: 500; color: #636161">Pedicura</p>
-                    <hr
-                        style="
-                            height: 15px;
-                            width: 425px;
-                            margin: auto;
-                            top: -75px;
-                            position: relative;
-                            background-color: #636161;
-                            border-radius: 5px;
-                        "
-                    />
-                </div>
-                <div class="col-xxl-4">
-                    <img
-                        src="./doc/img/image 26.png"
-                        style="
-                            border-bottom: 5px solid #828282;
-                            border-left: 0px;
-                            border-right: 0px;
-                            border-top: 0px;
-                            border-top: 5px solid #828282;
-                            border-right: 5px solid #828282;
-                            border-left: 5px solid #828282;
-                        "
-                        alt=""
-                        srcset=""
-                    />
-                    <p style="position: relative; left: 155px; top: -220px; font-weight: 500; color: #636161">Seguridad y</p>
-                    <p style="position: relative; left: 150px; top: -240px; font-weight: 500; color: #636161">Vigilancia</p>
-                    <hr
-                        style="
-                            height: 15px;
-                            width: 425px;
-                            margin: auto;
-                            top: -75px;
-                            position: relative;
-                            background-color: #828282;
-                            border-radius: 5px;
-                        "
-                    />
-                </div>
+            <div class="col-xxl-4">
+                <img
+                    src="./doc/img/image 25.png"
+                    style="
+                        border-bottom: 5px solid #828282;
+                        border-left: 0px;
+                        border-right: 0px;
+                        border-top: 0px;
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                    "
+                    alt=""
+                    srcset=""
+                />
+                <p style="position: relative; left: 170px; top: -60px; font-weight: 500; color: #636161">Manicura</p>
+                <p style="position: relative; left: 170px; top: -80px; font-weight: 500; color: #636161">Pedicura</p>
+                <hr style="height: 15px; width: 425px; margin: auto; top: -75px; position: relative; background-color: #636161; border-radius: 5px" />
+            </div>
+            <div class="col-xxl-4">
+                <img
+                    src="./doc/img/image 26.png"
+                    style="
+                        border-bottom: 5px solid #828282;
+                        border-left: 0px;
+                        border-right: 0px;
+                        border-top: 0px;
+                        border-top: 5px solid #828282;
+                        border-right: 5px solid #828282;
+                        border-left: 5px solid #828282;
+                    "
+                    alt=""
+                    srcset=""
+                />
+                <p style="position: relative; left: 155px; top: -220px; font-weight: 500; color: #636161">Seguridad y</p>
+                <p style="position: relative; left: 150px; top: -240px; font-weight: 500; color: #636161">Vigilancia</p>
+                <hr style="height: 15px; width: 425px; margin: auto; top: -75px; position: relative; background-color: #828282; border-radius: 5px" />
             </div>
         </div>
         <!-- FIN ROW -->

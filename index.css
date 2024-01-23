@@ -19,10 +19,12 @@
     background-color: #267b8d;
     border: 5px;
     border-radius: 10px;
+    color: white;
 }
 
 .btn:hover {
-    background-color: #267b8d;
+    background-color: #0f525f !important;
+    color: white !important;
 }
 
 .form .btn {
